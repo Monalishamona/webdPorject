@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-color: #596794;
+    /* background-image:url(); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-box{
+    width:90%;
+    max-width: 450px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: #fff;
+    padding:50px 60px 70px;
+    text-align: center;
+
+
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #415A77;
+    position: relative;
+
+
+}
+.form-box h1::after{
+    content: '';
+    width:30px;
+    height:4px;
+    border-radius: 3px;
+    background-color: #415A77;
+    position: absolute;
+    bottom:-12px;
+    left:50%;
+    transform: translateX(-50%);
+}
+ .input-field{
+    background: #e1e6eb;
+    margin:15PX 0; 
+    border: 3PX;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+
+}
+input{
+    width:100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding:18px 15px;
+
+
+
+}
+.input-field i{
+    margin-left: 15px;
+    /* color:#999; */
+
+}
+
+form p{
+    text-align: left;
+    font-size:13px;
+
+} 
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: #415A77;
+    color: #fff;
+    height:40px;
+    border-radius: 20px;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    transition: background 1s;
+}
+.input-group{
+    height:280px;
+    /* color: black; */
+}
+/* .input-group .p a{
+    color: #2f3b49;
+} */
+.btn-field button.disable{
+    background:#eaeaea ;
+    color:#555;
+}
+.container a{
+    font-size: 15px;
+    font-family: Poppins;
+    color:black;
+    margin:10px;
+    padding:2px;
+    /* border:black 4px solid; */
+    text-decoration: none;
+}
+.container a:hover{
+    border: 1px solid #415A77;
+    background-color: #2f3b49;
+    border-radius: 8px;
+    color:#fff;
+
+}
